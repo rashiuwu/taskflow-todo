@@ -1,41 +1,64 @@
-# TaskFlow — JavaScript To-Do List
+# ✨ TaskFlow — JavaScript To-Do List
 
-A client-side To-Do List application built to practice JavaScript logic, DOM manipulation, event handling, CRUD operations, filtering, event delegation, and localStorage persistence.
+A simple and interactive **To-Do List web application** built with **HTML, CSS and Vanilla JavaScript**.
 
-## Features
+## 🚀 Features
 
-- Create, Read, Update, Delete tasks
-- Mark tasks as completed
-- All / Active / Completed filters
-- Event delegation for dynamic task controls
-- Automatic localStorage persistence
-- Responsive UI
-- Clear completed tasks
-- No frameworks or external dependencies
+* ➕ Add new tasks
+* ✏️ Edit tasks
+* 🗑️ Delete tasks
+* ✅ Mark tasks as completed
+* 🔍 Filter: All, Active & Completed
+* 💾 Save tasks using `localStorage`
+* 🔄 Data remains after browser refresh
+* ⚡ Dynamic DOM manipulation
+* 🎯 Event delegation
 
-## Run
+## 🛠️ Tech Stack
 
-Simply open `index.html` in a modern browser.
+* HTML5
+* CSS3
+* JavaScript
+* DOM API
+* LocalStorage
 
-## Files
+## 📂 Project Structure
 
-- `index.html` — application structure
-- `style.css` — responsive styling
-- `script.js` — state management and application logic
+```text
+TaskFlow_ToDo/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
 
-## State Flow
+## ▶️ Run Locally
 
-User action → Update `todos` state → Save to localStorage → Render UI
+```bash
+git clone https://github.com/rashiuwu/TaskFlow_ToDo.git
+cd TaskFlow_ToDo
+```
 
-## Learning Outcomes
+Then open `index.html` in your browser.
 
-This project demonstrates:
+## 🧠 Learning Outcomes
 
-- JavaScript arrays and objects
-- DOM manipulation
-- Event listeners and event delegation
-- CRUD operations
-- `filter()` and `find()`
-- Browser `window.localStorage`
-- State-driven rendering
-- Dynamic DOM elements
+This project helped me practice:
+
+* JavaScript CRUD operations
+* DOM manipulation
+* Event handling & delegation
+* State management
+* LocalStorage & JSON
+* Dynamic UI updates
+
+## 👩‍💻 Author
+
+**Rashi Sawardekar**
+B.Sc. Information Technology
+
+🔗 GitHub: https://github.com/rashiuwu
+
+---
+
+⭐ If you like the project, consider giving it a star!
