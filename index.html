@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskFlow - JavaScript To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header>
+      
+      <h1>TaskFlow</h1>
+      <p class="subtitle">A simple, persistent to-do list powered by JavaScript.</p>
+    </header>
+
+    <section class="card">
+      <form id="todoForm" class="add-form">
+        <input id="todoInput" type="text" placeholder="What needs to be done?" maxlength="120" autocomplete="off">
+        <button type="submit">Add Task</button>
+      </form>
+
+      <div class="toolbar">
+        <div class="filters" id="filters">
+          <button type="button" class="filter active" data-filter="all">All</button>
+          <button type="button" class="filter" data-filter="active">Active</button>
+          <button type="button" class="filter" data-filter="completed">Completed</button>
+        </div>
+        <span id="count">0 tasks</span>
+      </div>
+
+      <ul id="todoList" class="todo-list"></ul>
+
+      <div id="emptyState" class="empty">
+        <div class="empty-icon">✓</div>
+        <h2>No tasks here</h2>
+        <p>Add a task above to get started.</p>
+      </div>
+
+      <footer>
+        <button id="clearCompleted" class="clear-btn" type="button">Clear completed</button>
+        <span>Saved automatically in your browser</span>
+      </footer>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
