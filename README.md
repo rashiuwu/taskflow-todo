@@ -5,7 +5,7 @@ A simple and interactive **To-Do List web application** built with **HTML, CSS a
 
 ## 🌐 Live Demo
 
-👉 **[View Live Demo]((https://rashiuwu.github.io/taskflow-todo/))**
+👉 **[View Live Demo](https://rashiuwu.github.io/taskflow-todo/)**
 
 ## 🚀 Features
 
